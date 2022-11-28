@@ -1,0 +1,21 @@
+.body{
+    animation: changeBg 5s infinite alternate linear;
+}
+
+@keyframes changeBg {
+    0%{
+        background: #ee7842;
+    }
+    25%{
+        background: #c2d360;
+    }
+    50%{
+        background: #83f6a9;
+    }
+    75%{
+        background: #49b2c0;
+    }
+    100%{
+        background: #4667c4;
+    }
+}

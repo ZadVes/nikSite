@@ -21,9 +21,9 @@
                 <div class="header_inner">
                     <div class="logo">ZADVES</div>
                         <nav class="nav">
-                            <a class="nav__link" href="#">Новости</a>
+                            <a class="nav__link" href="./news/news.php">Новости</a>
                             <a class="nav__link" href="#">Места</a>
-                            <a class="nav__link" href="#">О нас</a>
+                            <a class="nav__link" href="./aboutMe/me.php">О нас</a>
                         </nav>
                 </div>
             </div>
