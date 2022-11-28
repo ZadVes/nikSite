@@ -1,5 +1,5 @@
 <?php
-    $email = 'nikita.zatokovenko2015@yandex.ru';
+    $email = $_POST['sasyke.moyzent228@mail.ru'];
     $message= $_POST['massage'];
     $message = wordwrap($message, 150, "\r\n");
 
