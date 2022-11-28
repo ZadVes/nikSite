@@ -38,6 +38,7 @@
             <div class = "container">
                 <h1>Если, вы хотите задать вопрос, то вам вниз</h1>
                 <from action = "email.php" method="post">
+                    <input type="email" name="email" placeholder="Введите вашу почту">
                     <textarea name="message" class="from-control"
                     placeholder="Введите сообщение"></textarea><br>
                     <button type="submit" name="send" class="btn btn-success">Отправить</button>

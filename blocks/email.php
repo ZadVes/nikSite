@@ -1,5 +1,5 @@
 <?php
-    $email = $_POST['sasyke.moyzent228@mail.ru'];
+    $email = $_POST['email'];
     $message= $_POST['massage'];
     $message = wordwrap($message, 150, "\r\n");
 
@@ -21,7 +21,7 @@
     $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;
     charset=utf-8\r\n";
 
-    mail($email, $subject, $message, $headers);
+    mail('sasyke.moyzent228@mail.ru', $subject, $message, $headers);
 
     header('Location: /me.php');
 
