@@ -24,7 +24,8 @@
     
         mail('sasyke.moyzent228@mail.ru', $subject, $message, $headers);
     
-        header(Location: '../me.php'); 
+        // header(Location: '../me.php'); 
+        include "../me.php";
 
     }
     
