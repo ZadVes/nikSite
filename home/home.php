@@ -18,7 +18,7 @@
                 <div class="header_inner">
                     <div class="logo">дом</div>
                         <nav class="nav">
-                            <a class="nav__link" href="../main.php">На главную</a>
+                            <a class="nav__link" href="../index.php">На главную</a>
                         </nav>
                 </div>
             </div>
