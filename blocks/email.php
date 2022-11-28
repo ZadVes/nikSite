@@ -1,6 +1,6 @@
 <?php
     $email = $_POST['email'];
-    $message= $_POST['massage'];
+    $message= $_POST['message'];
     $message = wordwrap($message, 150, "\r\n");
 
     $error='';
