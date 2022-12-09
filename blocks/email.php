@@ -21,7 +21,7 @@
             exit;
         }
 
-    // обработка полученных данных
+    /* обработка полученных данных
     $email = htmlspecialchars($email);
     $message = htmlspecialchars($message);
 
@@ -30,7 +30,7 @@
 
     $email = trim($email);
     $message = trim($message);
-
+        */
         
     $subject = "=?utf-8?B?".base64_encode("Сообщение от пользователей")."?=";
     $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;
@@ -45,8 +45,8 @@
         echo('noooooo');
     }
     
-    header(Location: '../aboutMe/me.php'); 
-    //include "../aboutMe/me.php";
+    //header(Location: '../aboutMe/me.php'); 
+    include "../aboutMe/me.php";
     }
     
 
