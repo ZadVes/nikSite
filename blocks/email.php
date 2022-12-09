@@ -40,7 +40,7 @@
     
         // header(Location: '../aboutMe/me.php'); 
     include "../aboutMe/me.php";
-
+    include "../aboutMe/me.css";
     }
     
 
