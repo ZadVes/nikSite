@@ -38,7 +38,7 @@
             <div class = "container">
                 <h1>Если, вы хотите задать вопрос, то вам вниз</h1>
                 <form action = "../blocks/email.php" method="post">
-                    <input type="email" name="email" placeholder="Введите вашу почту">
+                    <input type="email" name="email" placeholder="Введите вашу почту" calss = "from-control">
                     <textarea name="message" class="from-control"
                     placeholder="Введите сообщение"></textarea><br>
                     <input type="submit" value = "Отправить"></p>
