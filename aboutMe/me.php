@@ -41,7 +41,7 @@
                     <input type="email" name="email" placeholder="Введите вашу почту">
                     <textarea name="message" class="from-control"
                     placeholder="Введите сообщение"></textarea><br>
-                    <input type = "submit" value = "Отправить"></p>
+                    <input type="submit" value = "Отправить"></p>
                 </form>
             </div>
         </div> 
