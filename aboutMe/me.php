@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="./me.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,7 +42,7 @@
                     <input type="email" name="email" placeholder="Введите вашу почту" calss = "from-control">
                     <textarea name="message" class="from-control"
                     placeholder="Введите сообщение"></textarea><br>
-                    <input type="submit" value = "Отправить"></p>
+                    <button type="submit" name="send" class="btn btn-success">Отправить</button>
                 </form>
             </div>
         </div> 

@@ -32,11 +32,11 @@
     $message = trim($message);
 
         
-    /*$subject = "=?utf-8?B?".base64_encode("Сообщение от пользователей")."?=";
+    $subject = "=?utf-8?B?".base64_encode("Сообщение от пользователей")."?=";
     $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;
         charset=utf-8\r\n";
-    */
-    if(mail('sasyke.moyzent228@mail.ru', "Новое письмо\n"/*$subject*/, ".$message.\n", "From: no-reply@mydomain.ru \r\n"/*$headers*/))
+    
+    if(mail('sasyke.moyzent228@mail.ru', $subject, $message, $headers))
         {
             echo('success');
         }
@@ -45,8 +45,8 @@
         echo('noooooo');
     }
     
-    //header(Location: '../aboutMe/me.php'); 
-    include "../aboutMe/me.php";
+    header(Location: '../aboutMe/me.php'); 
+    //include "../aboutMe/me.php";
     }
     
 
