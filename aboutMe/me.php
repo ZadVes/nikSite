@@ -27,7 +27,9 @@
             <div class = "container">
                 <div class="intro_inner">
                     <h1 class="intro_text">Здесь, вы можете узнать нас получше ;)</h1>
-                    
+                    <div class="photo">
+                        <img src="../images/Office.jpg" width="351" height="211" alt="">
+                    </div>
                 </div>
             </div>
        </div> 
