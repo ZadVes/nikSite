@@ -63,12 +63,14 @@ h1, h2, h3, h4, h5, h6{
 @media screen and (max-width: 900px){
     .intro{
         width: 80%;
+        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 600px){
     .intro{
         width: 60%;
+        margin: 0 auto;
     }
 }
 
