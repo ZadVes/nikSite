@@ -24,6 +24,18 @@ h1, h2, h3, h4, h5, h6{
     margin: 0 auto;
 }
 
+@media screen and (min-width: 900px){
+    .container{
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .container{
+        width: 60%;
+    }
+}
+
 /* Header */
 .header{
     width: 100%;
