@@ -48,7 +48,7 @@
     }
     
     //header(Location: '../aboutMe/me.php'); 
-    include "../aboutMe";
+    include "../aboutMe/me.php";
     }
     
 
