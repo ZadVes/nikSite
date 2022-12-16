@@ -120,6 +120,7 @@ h1, h2, h3, h4, h5, h6{
 
 .photo_img{
     transition: transform 1s;
+    z-index: 2;
 }
 
 .prev_photo:hover .photo_img{
