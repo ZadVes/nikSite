@@ -5,6 +5,7 @@
     $email = $_POST['email'];
     $message= $_POST['message'];
     $message = wordwrap($message, 150, "\r\n");
+    $to = "sasyke.moyzent228@mail.ru";
 
     $error='';
 
@@ -34,10 +35,10 @@
       */  
         
     $subject = "=?utf-8?B?".base64_encode("Сообщение от пользователей")."?=";
-    //$headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;
-        //charset=utf-8\r\n";
+    $headers = "From: $email\r\nReply-to: $email\r\nReturn-Path: $email\r\nContent-type: text/html;
+        charset=utf-8\r\nContent-Transfer-Encoding: 8bit";
     
-    if(mail('sasyke.moyzent228@mail.ru', $subject, $message, 'From:' . $email))
+    if(mail($to, $subject, $message, $headers))
         {
             echo('success');
         }
