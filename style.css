@@ -324,6 +324,6 @@ h1, h2, h3, h4, h5, h6{
 
 @media screen and(max-height: 620px){
     .knopka{
-        padding: 100px;
+        margin: 250px auto 0;
     }
 }
