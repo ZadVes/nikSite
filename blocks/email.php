@@ -34,7 +34,7 @@
       */  
         
     $subject = "=?utf-8?B?".base64_encode("Сообщение от пользователей")."?=";
-    $headers = "From: . $email\r\nReply-to: . $email.\r\n.Content-type: text/html;
+    $headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;
         charset=utf-8\r\n";
     
     if(mail('sasyke.moyzent228@mail.ru', $subject, $message, $headers))
