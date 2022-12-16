@@ -2,7 +2,7 @@
 
 
   
-    //$email = $_POST['email'];
+    $email = $_POST['email'];
     $message= $_POST['message'];
     $message = wordwrap($message, 150, "\r\n");
 
@@ -34,10 +34,10 @@
       */  
         
     $subject = "=?utf-8?B?".base64_encode("Сообщение от пользователей")."?=";
-    $headers = "From: 'sasyke.moyzent228@mail.ru'\r\nReply-to: 'sasyke.moyzent228@mail.ru'\r\nContent-type: text/html;
-        charset=utf-8\r\n";
+    //$headers = "From: $email\r\nReply-to: $email\r\nContent-type: text/html;
+        //charset=utf-8\r\n";
     
-    if(mail('sasyke.moyzent228@mail.ru', $subject, $message, $headers))
+    if(mail('sasyke.moyzent228@mail.ru', $subject, $message, 'From:' . $email))
         {
             echo('success');
         }

@@ -40,7 +40,7 @@
                 <h1>Если, вы хотите задать вопрос, то вам вниз</h1>
                 <h2>Проверка</h2>
                 <form action = "../blocks/email.php" method="post">
-                    
+                    <input type="email" name="email" placeholder="Введите вашу почту" calss = "form-control">
                     <textarea name="message" class="form-control"
                     placeholder="Введите сообщение"></textarea><br>
                     <button type="submit" name="send" class="btn btn-success">Отправить</button>
