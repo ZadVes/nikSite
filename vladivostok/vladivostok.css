@@ -114,13 +114,13 @@ h1, h2, h3, h4, h5, h6{
 .prev_photo{
     width: 600px;
     position: relative;
+    z-index: 2;
 
     background-color: rgb(39, 39, 39);
 }
 
 .photo_img{
     transition: transform 1s;
-    z-index: 2;
 }
 
 .prev_photo:hover .photo_img{
