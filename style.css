@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6{
     color: rgb(202, 199, 199);
     text-transform: uppercase;
     text-decoration: none;
-    margin: 500px auto 0;
+    margin: 500px auto 0px;
     border-radius: 5%;
     
     transition: background .2s linear, color .2s linear;
@@ -324,6 +324,6 @@ h1, h2, h3, h4, h5, h6{
 
 @media screen and(max-height: 620px){
     .knopka{
-        margin: 250px auto 0;
+        margin: 250px auto 0px;
     }
 }
