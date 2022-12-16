@@ -48,7 +48,7 @@
     }
     
     //header(Location: '../aboutMe/me.php'); 
-    include "http://nik.pavelisaenko.xyz/aboutMe/me.php";
+    include "../aboutMe/me.php";
     }
     
 
