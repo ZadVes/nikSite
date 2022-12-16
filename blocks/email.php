@@ -7,21 +7,15 @@
     $message = wordwrap($message, 150, "\r\n");
     $to = "sasyke.moyzent228@mail.ru";
 
-    $error='';
 
 
     if(trim($message) == ''){
-        $error='Введите сообщение';
+        echo('Введите сообщение');
     }
     else if(strlen($message)<=10){
-        $error='Сообщение слишком короткое';
+       echo('Сообщение слишком короткое');
     }
 
-    else{
-        if($error !=''){
-            echo $error;
-            exit;
-        }
 
      /*обработка полученных данных
     $email = htmlspecialchars($email);
@@ -49,7 +43,6 @@
     
     //header(Location: '../aboutMe/me.php'); 
     include "../aboutMe/me.php";
-    include "../aboutMe/me.css";
     }
     
 
