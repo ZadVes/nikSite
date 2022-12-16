@@ -7,15 +7,21 @@
     $message = wordwrap($message, 150, "\r\n");
     $to = "sasyke.moyzent228@mail.ru";
 
+    $error='';
 
 
     if(trim($message) == ''){
-        echo('Введите сообщение');
+        $error='Введите сообщение';
     }
     else if(strlen($message)<=10){
-       echo('Сообщение слишком короткое');
+        $error='Сообщение слишком короткое';
     }
 
+    else{
+        if($error !=''){
+            echo $error;
+            exit;
+        }
 
      /*обработка полученных данных
     $email = htmlspecialchars($email);
@@ -42,7 +48,7 @@
     }
     
     //header(Location: '../aboutMe/me.php'); 
-    include "../aboutMe/me.php";
+    include "http://nik.pavelisaenko.xyz/aboutMe/me.php";
     }
     
 
